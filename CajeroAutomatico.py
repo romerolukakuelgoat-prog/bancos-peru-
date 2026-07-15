@@ -1,16 +1,16 @@
 # ===========================================
 # PROGRAMA: CAJERO AUTOMÁTICO
-# Autor: (Renato Lazaro)
+# Autor: (Renato Lazaro 3SEC)
 # ===========================================
 
-saldo = 5000
-pin_correcto = "5678"
+saldo = 20000
+pin_correcto = "9012"
 
 print("===================================")
-print("     BIENVENIDO AL CAJERO BCP")
+print("     Cajero banco interbank")
 print("===================================")
 
-pin = input("Ingrese su CLAVE PIN: ")
+pin = input("Ingresar PIN: ")
 
 if pin == pin_correcto:
 
